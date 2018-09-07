@@ -1,6 +1,9 @@
 import os
 from flask import Flask, render_template
+from flask_sslify import SSLify
+
 app = Flask(__name__, static_url_path='/static')
+sslify = SSLify(app)
 
 @app.route("/")
 def index():
