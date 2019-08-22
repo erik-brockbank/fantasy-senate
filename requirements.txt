@@ -1,0 +1,9 @@
+click==6.7
+Flask==0.12.3
+gunicorn==19.6.0
+itsdangerous==0.24
+Jinja2>=2.10.1
+MarkupSafe==0.23
+requests==2.20.0
+virtualenv==15.1.0
+werkzeug>=0.15.3
