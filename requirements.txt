@@ -2,7 +2,7 @@ click==6.7
 Flask==1.0.0
 gunicorn==19.6.0
 itsdangerous==0.24
-Jinja2>=2.10.1
+jinja2 = ">=2.11.3"
 MarkupSafe==0.23
 requests==2.20.0
 virtualenv==15.1.0
